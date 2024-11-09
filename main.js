@@ -61,7 +61,7 @@ directionalLight2.position.set(-5, -5, 5);
 scene.add(directionalLight2);
 
 const gridHelper = new THREE.GridHelper(10, 10);
-gridHelper.position.y = 0;
+gridHelper.position.y = 0.01;
 scene.add(gridHelper);
 
 // Floor setup
